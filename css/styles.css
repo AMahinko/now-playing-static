@@ -66,6 +66,23 @@ figure {
   background-color: #ffffff;
 }
 
+@media (min-width: 768px) {
+  .site-nav{
+    position: fixed;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    width: 100px;
+  }
+
+  .site-logo {
+    z-index: 101;
+    width: 60px;
+    height: 60px;
+  }
+
+}
+
 .site-nav-list,
 .footer-nav-list {
   margin: 0;
