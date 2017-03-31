@@ -66,22 +66,6 @@ figure {
   background-color: #ffffff;
 }
 
-@media (min-width: 768px) {
-  .site-nav{
-    position: fixed;
-    max-height: 100%;
-    top: 0;
-    left: 0;
-    width: 100px;
-  }
-
-  .site-logo {
-    z-index: 101;
-    width: 60px;
-    height: 60px;
-  }
-
-}
 
 .site-nav-list,
 .footer-nav-list {
@@ -211,4 +195,41 @@ figure {
 
 .about > p {
   margin: 0;
+}
+
+
+@media (min-width: 768px) {
+  .site-nav{
+    position: fixed;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    width: 75px;
+  }
+
+  .site-logo {
+    z-index: 101;
+    width: 50px;
+    height: 50px;
+  }
+
+  .site-nav-list {
+    margin-top: 75px;
+    margin-left: 10px;
+  }
+
+  .site-nav-item {
+    width: 20%;
+    float: none;
+    display: table-row;
+  }
+
+  .site-nav-item > i {
+
+  }
+
+  .site-nav-item .fa fa-bookmark {
+    padding-left: 10px;
+  }
+
 }
