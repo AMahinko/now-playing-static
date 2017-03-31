@@ -283,3 +283,30 @@ figure {
   }
 
 }
+
+
+@media (min-width: 992px){
+
+  .movie-image .movie-backdrop {
+    display: none;
+  }
+
+  .movie-image .movie-poster {
+    display: inline-block;
+  }
+
+  .movie {
+
+
+  }
+
+  .movie:first-child .movie-poster {
+
+    display: none
+  }
+
+  .movie:first-child .movie-backdrop {
+    display: block;
+  }
+
+}
