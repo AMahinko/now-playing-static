@@ -295,9 +295,22 @@ figure {
     display: inline-block;
   }
 
+.movie-poster {
+  max-width: 100%;
+
+}
+
+.movie-details {
+  max-width: 100%;
+}
+
   .movie {
+    max-width: 33%;
+    display: inline-grid;
+  }
 
-
+  .movie:first-child {
+    max-width: 100%;
   }
 
   .movie:first-child .movie-poster {
@@ -308,5 +321,15 @@ figure {
   .movie:first-child .movie-backdrop {
     display: block;
   }
+
+  .movie-overview {
+    display: none;
+  }
+
+  .movie:first-child .movie-overview {
+    display: inline-block;
+  }
+
+
 
 }
