@@ -208,6 +208,10 @@ figure {
     z-index: 100;
   }
 
+  body {
+    padding: 0;
+  }
+
   .site-logo {
     z-index: 101;
     width: 40px;
@@ -236,7 +240,7 @@ figure {
 
   main {
     position: relative;
-    left: 35px;
+    padding-left: 35px;
     /*top: 0
     /*max-width: 95%;*/
   }
@@ -247,6 +251,35 @@ figure {
 
   .movie-overview{
     display: inline-block;
+  }
+
+  .site-footer {
+    overflow-x: auto;
+    /*position: absolute;*/
+    width: 100%;
+    padding-left: 55px;
+    background-color: #333333;
+    display: block;
+    color: white;
+  }
+
+  .footer-nav{
+  width: 49%;
+  display: inline-block;
+  margin: 0;
+  background-color: #333333;
+  padding-bottom: 20px;
+  }
+
+  .footer-nav-list{
+
+    margin-bottom: 20px;
+  }
+
+  .about {
+    width: 49%;
+    display:inline-block;
+    margin: 0;
   }
 
 }
