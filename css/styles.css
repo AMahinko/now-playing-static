@@ -306,11 +306,16 @@ figure {
 
   .movie {
     max-width: 33%;
-    display: inline-grid;
+    display: inline-block;
   }
 
   .movie:first-child {
     max-width: 100%;
+    display: inline-block;
+  }
+
+  .movie-backdrop{
+    max-width: 100%
   }
 
   .movie:first-child .movie-poster {
@@ -320,6 +325,7 @@ figure {
 
   .movie:first-child .movie-backdrop {
     display: block;
+    max-width: 100%;
   }
 
   .movie-overview {
